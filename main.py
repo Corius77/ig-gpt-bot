@@ -31,7 +31,6 @@ fb_logging_button = browser.find_element(By.CLASS_NAME, "_ab37")
 fb_logging_button.click()
 tools.wait()
 
-
 browser.implicitly_wait(10)
 
 fb_cookie_block = browser.find_element(By.XPATH, "(//button[contains(@class,'_42ft _4jy0')])[2]")
